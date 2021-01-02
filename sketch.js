@@ -71,7 +71,7 @@ if(keyDown("left"))
 	fairy.x = fairy.x-6
 }
 
-if(keyDown("s"))
+if(keyDown("down"))
 {
 	Matter.Body.setStatic(starBody,false)
 
